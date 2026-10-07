@@ -1,0 +1,343 @@
+
+# AutoGrid – Rechtliche Hinweise und Nutzungsbedingungen
+
+**Stand: Oktober 2026**
+
+AutoGrid ist eine kostenlose Open-Source-Software zur lokalen Automatisierung von Handelsstrategien für Kryptowerte über die API der Kryptobörse Kraken.
+
+Die nachfolgenden Hinweise sind vor der Nutzung sorgfältig zu lesen.
+
+---
+
+# 1. HOCHRISIKO-WARNUNG / RISK DISCLAIMER
+
+## ⚠ WARNUNG: HANDEL MIT KRYPTOWERTEN IST MIT ERHEBLICHEN RISIKEN VERBUNDEN
+
+AutoGrid ermöglicht die vollautomatisierte Ausführung von Grid-Trading- und DCA-Strategien über ein vom Nutzer verbundenes Kraken-Konto.
+
+**Der Einsatz automatisierter Handelssoftware kann zu erheblichen finanziellen Verlusten bis hin zum vollständigen Verlust des eingesetzten Kapitals führen.**
+
+Kryptowerte unterliegen teilweise extremen Kursschwankungen. Vergangene Kursentwicklungen, Backtests, Simulationen, Beispielkonfigurationen oder bisherige Handelsergebnisse stellen keinen verlässlichen Indikator für zukünftige Ergebnisse dar.
+
+Insbesondere besteht das Risiko, dass:
+
+- Kurse innerhalb kurzer Zeit erheblich steigen oder fallen,
+- Grid- oder DCA-Strategien in bestimmten Marktphasen erhebliche Verluste verursachen,
+- Positionen zu ungünstigen Preisen eröffnet oder geschlossen werden,
+- aufgrund hoher Volatilität zahlreiche Orders in kurzer Zeit ausgeführt werden,
+- Handelsgebühren die erzielten Gewinne reduzieren oder Verluste erhöhen,
+- API-, Netzwerk-, Computer-, Kraken- oder Softwarefehler zu unerwarteten Orderausführungen führen,
+- konfigurierte Parameter nicht der vom Nutzer erwarteten Handelsstrategie entsprechen,
+- die Software aufgrund eines Programmfehlers fehlerhafte, verspätete, doppelte oder keine Orders übermittelt,
+- die Kraken-API zeitweise nicht erreichbar ist oder sich ihre technische Funktionsweise ändert.
+
+## Nutzung ausschließlich auf eigene finanzielle Verantwortung
+
+Jeder Nutzer entscheidet selbst,
+
+- ob AutoGrid eingesetzt wird,
+- welche Kryptowerte gehandelt werden,
+- welches Kapital eingesetzt wird,
+- welche Handelsparameter verwendet werden,
+- welche API-Berechtigungen vergeben werden und
+- wann der automatisierte Handel gestartet oder beendet wird.
+
+**Es sollten ausschließlich Geldbeträge eingesetzt werden, deren vollständigen Verlust der Nutzer wirtschaftlich verkraften kann.**
+
+Es gibt keinerlei Garantie für Gewinne, Kapitalerhalt, eine bestimmte Rendite oder die Funktionsfähigkeit einer bestimmten Handelsstrategie.
+
+## Keine Anlageberatung
+
+AutoGrid und sämtliche dazugehörigen Dokumentationen, Beispielwerte, Konfigurationen, Quellcodes, Erläuterungen oder sonstigen Informationen stellen insbesondere keine
+
+- Anlageberatung,
+- individuelle Empfehlung zum Kauf oder Verkauf von Kryptowerten,
+- Finanzberatung,
+- Vermögensverwaltung,
+- Steuerberatung oder
+- Rechtsberatung
+
+für den Nutzer dar.
+
+AutoGrid bewertet insbesondere nicht die persönliche finanzielle Situation, Risikotragfähigkeit, Anlageziele oder sonstigen individuellen Umstände des Nutzers.
+
+Der Nutzer ist selbst dafür verantwortlich, vor einer Handelsentscheidung gegebenenfalls unabhängigen fachkundigen Rat einzuholen.
+
+---
+
+# 2. HAFTUNGSAUSSCHLUSS / LIMITATION OF LIABILITY
+
+## 2.1 Bereitstellung der Software
+
+AutoGrid wird kostenlos und als Open-Source-Software bereitgestellt.
+
+Die Software wird grundsätzlich in dem jeweils vorhandenen Entwicklungsstand („as is“ / „wie vorhanden“) bereitgestellt.
+
+Es wird – soweit gesetzlich zulässig – keine Gewähr dafür übernommen, dass AutoGrid
+
+- jederzeit fehlerfrei funktioniert,
+- ununterbrochen verfügbar ist,
+- mit zukünftigen Versionen der Kraken-API kompatibel bleibt,
+- bestimmte Handelsresultate erzielt,
+- bestimmte Gewinne erwirtschaftet,
+- Verluste verhindert oder
+- für einen bestimmten Zweck des Nutzers geeignet ist.
+
+Softwarefehler können trotz sorgfältiger Entwicklung und Prüfung nicht vollständig ausgeschlossen werden.
+
+## 2.2 Finanzielle Verluste
+
+Soweit gesetzlich zulässig, haftet der Entwickler nicht für Handels- oder Vermögensverluste, die insbesondere aufgrund folgender Umstände entstehen:
+
+- Kursbewegungen oder außergewöhnliche Marktbewegungen,
+- Liquiditätsengpässe oder Slippage,
+- Handels- oder sonstige Gebühren,
+- falsche oder ungeeignete Einstellungen durch den Nutzer,
+- falsch gewählte Grid-, DCA-, Preis-, Volumen- oder sonstige Parameter,
+- fehlerhafte Bedienung,
+- unzureichende Kontodeckung,
+- Softwarefehler oder Programmierfehler,
+- verspätete, doppelte, fehlerhafte oder ausgebliebene Orderübermittlungen,
+- Unterbrechungen der Internetverbindung,
+- Ausfälle oder Fehlfunktionen des Computers des Nutzers,
+- Fehler, Änderungen oder Ausfälle der Kraken-API,
+- Störungen oder Ausfälle bei Kraken oder anderen beteiligten Dritten,
+- außergewöhnliche Marktbedingungen oder
+- sonstige außerhalb des Einflussbereichs des Entwicklers liegende Ereignisse.
+
+Der Nutzer bleibt allein dafür verantwortlich, automatisierte Handelsvorgänge zu überwachen und bei Bedarf zu stoppen.
+
+## 2.3 Lokale Speicherung und API-Schlüssel
+
+AutoGrid arbeitet lokal auf dem Computer des Nutzers.
+
+Es bestehen keine zentralen AutoGrid-Server und keine AutoGrid-Cloud-Infrastruktur zur Speicherung von Kraken-Zugangsdaten.
+
+Kraken-API-Schlüssel werden ausschließlich lokal auf dem Rechner des Nutzers gespeichert.
+
+Soweit die entsprechende Funktion aktiviert wird, können diese Daten lokal verschlüsselt gespeichert werden. Eine Verschlüsselung kann das Risiko eines unbefugten Zugriffs reduzieren, jedoch keinen vollständigen Schutz gegen Angriffe oder kompromittierte Computersysteme gewährleisten.
+
+Der Entwickler erhält über AutoGrid keinen Zugriff auf:
+
+- Kraken-API-Schlüssel,
+- Kraken-Passwörter,
+- Kraken-Konten,
+- Kryptowerte,
+- Fiat-Guthaben oder
+- sonstige Vermögenswerte des Nutzers.
+
+Der Nutzer ist selbst für die Sicherheit seines Computers, seines Betriebssystems, seiner Zugangsdaten und seiner API-Schlüssel verantwortlich.
+
+Soweit gesetzlich zulässig, haftet der Entwickler insbesondere nicht für Schäden oder Verluste, die daraus entstehen, dass
+
+- der Computer des Nutzers mit Schadsoftware infiziert wird,
+- ein Dritter unbefugten Zugriff auf den Computer erhält,
+- lokal gespeicherte API-Schlüssel ausgelesen oder entwendet werden,
+- Zugangsdaten vom Nutzer weitergegeben werden oder
+- unzureichende Sicherheitsmaßnahmen auf dem System des Nutzers bestehen.
+
+**Es wird dringend empfohlen, für AutoGrid einen eigenen API-Schlüssel mit ausschließlich den tatsächlich erforderlichen Berechtigungen zu verwenden und insbesondere Auszahlungs-/Withdrawal-Berechtigungen nicht zu aktivieren, sofern sie für die Nutzung nicht erforderlich sind.**
+
+## 2.4 Drittanbieter und Kraken
+
+AutoGrid ist eine unabhängige Software.
+
+Soweit nicht ausdrücklich anders angegeben, besteht keine gesellschaftsrechtliche oder technische Zugehörigkeit zu Kraken und keine Gewährleistung oder Garantie durch Kraken für AutoGrid.
+
+Der Entwickler hat keinen Einfluss auf die
+
+- Verfügbarkeit von Kraken,
+- Ausführung von Orders durch Kraken,
+- Preisbildung,
+- Liquidität,
+- Gebührenstruktur,
+- API-Verfügbarkeit,
+- Sicherheitsmaßnahmen oder
+- zukünftigen Änderungen der Kraken-Dienste.
+
+Für Leistungen und technische Systeme von Kraken oder anderen Dritten gelten deren eigene Vertrags- und Nutzungsbedingungen.
+
+## 2.5 Gesetzlich zwingende Haftung
+
+Die vorstehenden Haftungsbeschränkungen gelten nur, soweit sie gesetzlich zulässig sind.
+
+Unbeschränkt bleibt insbesondere die Haftung
+
+- für vorsätzlich oder grob fahrlässig verursachte Schäden,
+- bei schuldhafter Verletzung von Leben, Körper oder Gesundheit sowie
+- soweit eine Haftung aufgrund zwingender gesetzlicher Vorschriften besteht.
+
+Bei leicht fahrlässiger Verletzung einer wesentlichen Vertragspflicht ist die Haftung – soweit gesetzlich zulässig – auf den bei Vertragsschluss vorhersehbaren, vertragstypischen Schaden begrenzt.
+
+Im Übrigen ist die Haftung für leicht fahrlässig verursachte Schäden ausgeschlossen, soweit gesetzlich zulässig.
+
+---
+
+# 3. KURZE NUTZUNGSBEDINGUNGEN / TERMS OF USE
+
+## 3.1 Geltungsbereich
+
+Diese Nutzungsbedingungen gelten für die Nutzung der Software „AutoGrid“.
+
+Mit Installation, Start oder Nutzung der Software bestätigt der Nutzer, diese Nutzungsbedingungen und die Risikohinweise zur Kenntnis genommen zu haben.
+
+Die Bedingungen der jeweiligen Open-Source-Lizenz des AutoGrid-Projekts bleiben hiervon unberührt.
+
+## 3.2 Voraussetzungen
+
+AutoGrid darf nur verwendet werden, wenn der Nutzer
+
+- rechtlich zum Handel mit den betreffenden Kryptowerten berechtigt ist,
+- ein eigenes und ordnungsgemäß eingerichtetes Kraken-Konto verwendet,
+- die für ihn geltenden Bedingungen von Kraken einhält und
+- alle für ihn geltenden gesetzlichen und regulatorischen Vorschriften beachtet.
+
+Der Nutzer ist selbst dafür verantwortlich, zu prüfen, ob die Verwendung automatisierter Handelssoftware in seinem Wohnsitzstaat zulässig ist.
+
+## 3.3 Eigenverantwortliche Konfiguration
+
+Der Nutzer bestimmt selbst sämtliche für den Handel relevanten Einstellungen.
+
+AutoGrid trifft keine individuelle Anlageentscheidung aufgrund der persönlichen Vermögensverhältnisse, Anlageziele oder Risikopräferenzen des Nutzers.
+
+Vor Verwendung mit echtem Kapital sollte der Nutzer die Funktionsweise der Software und der jeweiligen Handelsstrategie vollständig verstanden haben.
+
+## 3.4 Überwachung
+
+Automatisierung bedeutet nicht, dass der Betrieb unbeaufsichtigt erfolgen sollte.
+
+Der Nutzer ist selbst dafür verantwortlich,
+
+- laufende Orders und Positionen zu kontrollieren,
+- die Verbindung zu Kraken zu überwachen,
+- Fehlermeldungen zu beachten,
+- Veränderungen des Marktes zu berücksichtigen und
+- AutoGrid erforderlichenfalls unverzüglich zu stoppen.
+
+## 3.5 Sicherheit
+
+Der Nutzer ist dafür verantwortlich, seinen Computer gegen unbefugten Zugriff, Schadsoftware und sonstige Sicherheitsrisiken zu schützen.
+
+API-Schlüssel dürfen nicht an Dritte weitergegeben werden.
+
+Für AutoGrid sollten ausschließlich die minimal erforderlichen API-Rechte eingeräumt werden.
+
+## 3.6 Änderungen der Software
+
+AutoGrid kann jederzeit aktualisiert, verändert oder eingestellt werden.
+
+Es besteht kein Anspruch darauf, dass
+
+- bestimmte Funktionen dauerhaft angeboten werden,
+- ältere Konfigurationen mit zukünftigen Versionen kompatibel bleiben oder
+- Anpassungen an Änderungen der Kraken-API vorgenommen werden.
+
+## 3.7 Affiliate-/Referral-Hinweis
+
+AutoGrid wird kostenlos bereitgestellt.
+
+Innerhalb der Software oder der zugehörigen Projektseiten kann ein Affiliate-/Referral-Link zur Kryptobörse Kraken enthalten sein.
+
+**Wenn sich ein Nutzer über einen solchen Link bei Kraken registriert und die Voraussetzungen des jeweiligen Partnerprogramms erfüllt, kann der Entwickler von AutoGrid hierfür eine Provision oder sonstige Vergütung von Kraken erhalten.**
+
+Für den Nutzer entsteht dadurch nach Kenntnis des Entwicklers kein Anspruch auf eine bestimmte Leistung oder einen bestimmten wirtschaftlichen Vorteil.
+
+Die Existenz dieser Vergütung ändert nichts daran, dass der Nutzer selbst entscheidet, ob er Kraken nutzt oder sich dort registriert.
+
+## 3.8 Keine Erfolgsgarantie
+
+Es gibt keine Garantie dafür, dass AutoGrid Gewinne erzielt.
+
+Die Software kann Verluste verursachen.
+
+**Der Nutzer trägt das wirtschaftliche Risiko seiner Handelsentscheidungen selbst.**
+
+---
+
+# 4. DATENSCHUTZ-INFORMATION / PRIVACY NOTICE
+
+## Datenschutz bei AutoGrid
+
+AutoGrid wurde nach dem Prinzip der lokalen Datenverarbeitung entwickelt.
+
+### Keine AutoGrid-Server
+
+AutoGrid betreibt keine zentralen Server oder Cloud-Dienste zur Verarbeitung der Nutzerdaten.
+
+Die Software läuft lokal auf dem Windows-PC des Nutzers.
+
+### Keine Telemetrie
+
+AutoGrid übermittelt dem Entwickler keine Nutzungsstatistiken, Telemetriedaten, Handelsdaten oder sonstigen personenbezogenen Daten.
+
+Es findet insbesondere keine automatische Übertragung folgender Informationen an den Entwickler statt:
+
+- Kraken-API-Schlüssel,
+- Kraken-Kontodaten,
+- Handelspositionen,
+- Orderhistorien,
+- Guthaben,
+- Passwörter,
+- IP-Adressen,
+- Gerätekennungen oder
+- Nutzungsstatistiken.
+
+### API-Schlüssel
+
+Kraken-API-Schlüssel werden ausschließlich lokal auf dem Computer des Nutzers gespeichert.
+
+Sofern der Nutzer die entsprechende Funktion verwendet, können diese Daten lokal mittels Verschlüsselung geschützt werden.
+
+Die Entschlüsselung und Nutzung erfolgen ebenfalls lokal.
+
+Der Entwickler erhält über AutoGrid keinen Zugriff auf die API-Schlüssel.
+
+### Kommunikation mit Kraken
+
+Wenn der Nutzer sein Kraken-Konto mit AutoGrid verbindet, kommuniziert die lokal ausgeführte Anwendung direkt mit den Systemen bzw. der API von Kraken.
+
+Kraken verarbeitet hierbei Daten nach seinen eigenen Datenschutzbestimmungen.
+
+AutoGrid bzw. dessen Entwickler empfängt die zwischen dem Nutzer und Kraken übertragenen Kontodaten nicht auf eigenen Servern.
+
+### Affiliate-/Referral-Link
+
+AutoGrid kann einen Affiliate-/Referral-Link zu Kraken enthalten.
+
+Wird dieser Link geöffnet, verlässt der Nutzer AutoGrid beziehungsweise die entsprechende Projektseite und ruft ein Angebot von Kraken auf.
+
+Kraken kann im Zusammenhang mit diesem Aufruf eigene Daten – beispielsweise technische Verbindungsdaten oder Referral-Informationen – nach Maßgabe seiner eigenen Datenschutzbestimmungen verarbeiten.
+
+AutoGrid betreibt hierzu kein eigenes Nutzertracking.
+
+Der Entwickler kann aufgrund des Partnerprogramms eine Information über die Zuordnung beziehungsweise Vergütung einer erfolgreichen Empfehlung erhalten, soweit Kraken diese Informationen im Rahmen seines Partnerprogramms bereitstellt.
+
+### GitHub
+
+Diese Datenschutzinformation betrifft in erster Linie die AutoGrid-Anwendung selbst.
+
+Beim Aufruf oder Download des Projekts über GitHub verarbeitet GitHub Daten als eigenständiger Plattformanbieter nach den dort geltenden Datenschutzbedingungen.
+
+Auch Daten, die ein Nutzer freiwillig über GitHub-Issues, Discussions, Pull Requests oder vergleichbare Kommunikationsmöglichkeiten veröffentlicht, werden über die GitHub-Plattform verarbeitet.
+
+### Freiwillige Kontaktaufnahme
+
+Sofern ein Nutzer den Entwickler außerhalb der AutoGrid-Software freiwillig kontaktiert, können die vom Nutzer selbst übermittelten Kontakt- und Kommunikationsdaten zum Zweck der Bearbeitung der Anfrage verarbeitet werden.
+
+Diese Verarbeitung ist von der lokalen Datenverarbeitung innerhalb von AutoGrid getrennt.
+
+---
+
+# WICHTIGE KURZFASSUNG
+
+**AutoGrid handelt mit echtem Geld. Kryptowerte sind hochriskant und Totalverlust ist möglich.**
+
+**AutoGrid ist keine Anlageberatung und garantiert weder Gewinne noch Kapitalerhalt.**
+
+**Die Software läuft lokal. API-Schlüssel und Kontodaten werden nicht an den Entwickler übertragen.**
+
+**Der Nutzer entscheidet selbst über Strategie, Kapital, Einstellungen und API-Berechtigungen und trägt das daraus entstehende Handelsrisiko.**
+
+**AutoGrid kann Softwarefehler enthalten. Automatisierter Handel sollte überwacht werden.**
+
+**AutoGrid enthält möglicherweise einen Kraken-Affiliate-Link. Bei einer Registrierung darüber kann der Entwickler eine Provision erhalten.**
